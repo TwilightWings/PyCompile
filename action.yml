@@ -6,3 +6,10 @@ inputs:
     description: ""
     required: true
     default: "input.py"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "code"
+  color: "purple"
