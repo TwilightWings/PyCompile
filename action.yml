@@ -1,0 +1,8 @@
+name: "PyCompile"
+author: "TwilightWingsStudio sy"
+description: "Python Compile"
+inputs:
+  filename:
+    description: ""
+    required: true
+    default: "input.py"
