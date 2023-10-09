@@ -4,6 +4,7 @@ ADD requirements.txt /requirements.txt
 RUN pip install -r requirements.txt
 
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
 #RUN ["sh", "-c", "echo $GITHUB_SHA"]
