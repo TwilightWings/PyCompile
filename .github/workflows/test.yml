@@ -12,7 +12,7 @@ jobs:
       - name: Compile
         uses: TwilightWings/PyCompile@main
         with:
-          filename: 'input.py'
+          filename: 'example.py'
       - name: execute commit
         run: |
           git config user.name github-actions
