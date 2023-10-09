@@ -6,6 +6,9 @@ inputs:
     description: ""
     required: true
     default: "input.py"
+outputs:
+  py_compile_output:
+    description: 'log'
 
 runs:
   using: "docker"
