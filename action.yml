@@ -10,6 +10,8 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+  env:
+    INPUT_FILENAME: ${{inputs.filename}} # 入力値を環境変数に渡す
 branding:
   icon: "code"
   color: "purple"
