@@ -1,0 +1,8 @@
+requests==2.20.0
+requests_oauthlib
+xmltodict
+datetime
+utils
+tweepy
+pillow
+beautifulsoup4
