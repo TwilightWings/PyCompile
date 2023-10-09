@@ -1,0 +1,13 @@
+name: Test
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  py-compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compile
+        uses: TwilightWings/PyCompile@main
+        with:
+          filename: 'input.py'
